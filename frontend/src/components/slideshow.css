@@ -1,14 +1,15 @@
 /* Container to center and restrict overall width */
 .slideshow-container {
-  max-width: 90%; /* Adjust to control the overall width */
+  max-width: 1200px; /* Adjust to control the overall width */
   margin: 0 auto;
 }
 
 /* Custom styles for the carousel */
 .custom-carousel .carousel .slide img {
-  width: 90%; /* Image takes 80% of the container width */
+  width: 100%; /* Image takes 80% of the container width */
   height: auto; /* Maintains aspect ratio */
-   object-fit: contain; /* Ensures the entire image is visible */
+  max-height: 550px; /* Restricts the height */
+  object-fit: contain; /* Ensures the entire image is visible */
   margin: 0 auto;
   border-radius: 10px; /* Optional: Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow */
@@ -25,6 +26,6 @@
 @media (max-width: 768px) {
   .custom-carousel .carousel .slide img {
     width: 100%; /* Images adjust to container size on smaller screens */
-    max-height: 400px; /* Adjust height for smaller screens */
+    max-height: 200px; /* Adjust height for smaller screens */
   }
 }

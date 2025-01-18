@@ -9,6 +9,7 @@ import OurBrands from "./components/Ourbrands";
 import Aboutus from "./components/Aboutus";
 import Contact from "./components/Contact";
 import Footer from "./components/footer";
+import WelcomePopup from "./components/Welcomepopup";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <div id="brands"><OurBrands /></div>
             <div id="aboutus"><Aboutus /></div>
             <div id="contact"><Contact /></div>
+            <div><WelcomePopup/></div>
           </div>
         } />
         {/* Optionally add other routes for specific pages */}
@@ -34,6 +36,7 @@ function App() {
         <Route path="/brands" element={<OurBrands />} />
         <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/contact" element={<Contact />} />
+
       </Routes>
       <Footer />
     </Router>

@@ -7,7 +7,7 @@ const Aboutus = () => {
       <h2>About Us</h2>
       <p className="about-description">
         Welcome to S.G.Akash.Traders, your one-stop shop for all your hardware, paint, glass, and plywood needs. 
-        We have been serving the community for over [X] years, providing quality products at competitive prices. 
+        We have been serving the community for over 10 years, providing quality products at competitive prices. 
         Our goal is to offer excellent customer service and a wide range of products to meet your home improvement and construction needs.
       </p>
       

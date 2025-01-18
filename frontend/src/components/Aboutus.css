@@ -1,8 +1,16 @@
 .about-container {
-    padding: 4rem 2rem;
+    padding: 2cm 1cm;
+    padding-left: 5cm;
+    padding-right: 5cm;
+
     background-color: #f9f9f9;
     text-align: center;
-  }
+    border-radius: 2cm;
+    border: 2px solid black;
+    margin:1.5cm;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   }
+   
   
   .about-container h2 {
     font-size: 2.5rem;
@@ -75,4 +83,4 @@
       height: 80px;
     }
   }
-  
+   

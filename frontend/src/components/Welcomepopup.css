@@ -1,0 +1,123 @@
+/* Popup Background Overlay */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Blurred background */
+    backdrop-filter: blur(5px); /* Adds the blur effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    
+  }
+  iframe{padding : 0.5cm;}
+  
+  /* Welcome Popup Box */
+  .welcome-popup {
+    background: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Popup Header */
+  .popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .popup-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .minimize-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  /* Popup Body */
+  .popup-body {
+    margin-top: 15px;
+  }
+  
+  .popup-body p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Options */
+  /* Contact Options */
+.contact-options {
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    justify-content: center; /* Center horizontally */
+    gap: 20px; /* Space between items */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column; /* Align icon and text vertically within each item */
+    align-items: center;
+    text-decoration: none;
+    color: #444;
+    font-size: 1rem;
+    gap: 5px; /* Space between icon and text */
+}
+
+.contact-item img {
+    width: 40px; /* Increase size for better visibility */
+    height: 40px;
+    border-radius: 5px;
+}
+.contact-item img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+  
+  /* Enquire Button */
+  .enquire-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .enquire-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Minimized Icon */
+  .popup-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 1001;  
+  }
+  
+  .popup-icon img {
+     width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  

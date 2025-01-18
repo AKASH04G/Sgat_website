@@ -30,6 +30,19 @@ const ShopInfo = () => {
             </p>
           </div>
         </div>
+
+        <div className="shop-map">
+          <h2>Location</h2>
+          <iframe
+            title="Shop Location"
+             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60021.58200760587!2d79.0866447!3d12.0076283!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baca30eb2a32d79%3A0x6fe941732946e048!2sSG%20Aakash%20Traders!5e1!3m2!1sen!2sin!4v1733845761601!5m2!1sen!2sin" 
+             width="100%"
+            height="400"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
       </div>
     </section>
   );
